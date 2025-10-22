@@ -37,4 +37,5 @@ For all the sections -->
 
 * To review the overarching diagram relating to the subsection, please visit the ["Block Diagram"](https://jacobdirks.github.io/01-Block-Diagram/Block-Diagram/) section of the database.
 * To review the details regarding the components used to construct the subsection, you can review it in the ["Component Selection"](https://jacobdirks.github.io/02-Component-Selection/Component-Selection/#power-budget) section of the database.
-* To review the details regarding power consumption, please visit the ["Power Budged"](https://jacobdirks.github.io/05-Power-Budget/Power-Budget/) section of the database.
+* To review the details regarding power consumption, please visit the ["Power Budget"](https://jacobdirks.github.io/05-Power-Budget/Power-Budget/) section of the database.
+* To review the details regarding the schematic, please visit the ["schematic"](https://jacobdirks.github.io/04-Schematic/schematic/) section of the database.
