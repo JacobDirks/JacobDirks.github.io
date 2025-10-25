@@ -9,7 +9,7 @@
       
       
       
-        <link rel="canonical" href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/05-Power-Budget/Power-Budget/">
+        <link rel="canonical" href="https://github.com/JacobDirks/JacobDirks.github.io/05-Power-Budget/Power-Budget/">
       
       
         <link rel="prev" href="../../04-Schematic/schematic/">
@@ -176,7 +176,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/embedded-systems-design/EGR304DataSheetTemplate" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/JacobDirks/JacobDirks.github.io" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
@@ -371,7 +371,7 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/embedded-systems-design/EGR304DataSheetTemplate" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/JacobDirks/JacobDirks.github.io" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
@@ -850,7 +850,7 @@
                   
 
   
-    <a href="https://github.com/embedded-systems-design/EGR304DataSheetTemplate/edit/main/docs/05-Power-Budget/Power-Budget.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/JacobDirks/JacobDirks.github.io/edit/main/docs/05-Power-Budget/Power-Budget.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"></path></svg>
     </a>
@@ -860,13 +860,13 @@
 
   <h1>Power Budget</h1>
 
-<h2 id="overview">Overview</h2>
+<h2 id="overview"><strong>Overview</strong></h2>
 <p>After selecting components in <a href="https://jacobdirks.github.io/02-Component-Selection/Component-Selection/"><em>Component Selection</em></a> we needed to ensure that the subsection would have the power it needs with the added requirement of a safety margin. Therefore, we took the active components, meaning we excluded switches and passive components, and ensured our power supply as well as our regulators were able to get the power needed. The specifications for each piece came from their datasheet except in the case of the motor where it will only get power through the motor driver so it has different tolerances.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../DirksDocs/powerBudget1.PNG" data-desc-position="bottom"><img alt="budget1" src="../DirksDocs/powerBudget1.PNG" style="max-height:400px;"></a></p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../DirksDocs/powerBudget2.PNG" data-desc-position="bottom"><img alt="budget2" src="../DirksDocs/powerBudget2.PNG" style="max-height:400px;"></a></p>
-<h2 id="conclusions">Conclusions</h2>
+<h2 id="conclusions"><strong>Conclusions</strong></h2>
 <p>A single barrel jack port that is delivering 9V and 3A into the system is sufficient for the needs of the subsystem. If needed we have some power left over that we could add some new features after getting client feedback.</p>
-<h2 id="resources">Resources</h2>
+<h2 id="resources"><strong>Resources</strong></h2>
 <p>The power budget is available in other forms such as a <a href="../DirksDocs/powerBudget.pdf"><em>pdf version</em></a>, and as a <a href="../DirksDocs/PowerBudgetEGR304T102.xlsx"><em>Microsoft Excel Sheet</em></a>.</p>
 
 
@@ -946,7 +946,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright © 2025 team-name-here
+      Copyright © 2025 Team 102
     </div>
   
   
