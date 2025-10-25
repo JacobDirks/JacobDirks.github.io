@@ -14,18 +14,18 @@ for<br>
 **Submission: month, DD, 2025**
 </center>
 
-## Introduction
+## **Introduction**
 
 * This datasheet is for the moisture sensor subsection of the irrigation project. The various pages of this datasheet will walk through some of the design decisions, project criteria, and various project elements to simulate professional documentation.
 
-### Project Summary
+### **Project Summary**
 
 * The goal of the project is to create a system that utilizes communication between individual subsystems to provide a function that makes the life of a homeowner easier. The task Team 102 identified was the sometimes difficult task of remembering to water plants. This was able to be broken up into 4 subsystems: internal tank monitoring, fertilizer distribution, water distribution, and moisture sensing. You are currently viewing the moisture sensing subsection. The other sections are available via the [team report.](https://egr304-2025-f-102.github.io/) One thing to remember about this project was created for teams in a school based environment to learn simple electronics and practice embedded software development.
 
 <!-- This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
 * Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/) -->
 
-### My Contribution
+### **My Contribution**
 
 <!--
 * This needs to be updated to reflect a team introduction

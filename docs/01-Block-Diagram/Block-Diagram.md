@@ -31,12 +31,11 @@ Are available as a list here and with all the other options in [*Component Selec
 * [*PJ-102AH*](https://www.digikey.com/en/products/detail/cui-devices/PJ-102AH/408448)
 * [*711*](https://www.digikey.com/en/products/detail/adafruit-industries-llc/711/5353610)
 
-## Individual Block Diagram
+## **Individual Block Diagram**
 
 ![Uh oh we lost the Block Diagram](images/DirksBlockDiagramT102.png){style="max-height:400px;"}
 
-This block diagram is available on [*Draw.io here!*](https://drive.google.com/file/d/1KY_l_oFdGwqlsgwlLvn5x_c0yW5vuY1z/view?usp=sharing)
-It can also be found [*in pdf form here.*](images/EGR304IndividualBlockDiagram.pdf)
+This block diagram is available on [*as a draw io file*](images/DirksBlockDiagram.drawio) and it can be found [*in pdf form here.*](images/EGR304IndividualBlockDiagram.pdf)
 <!--
 ## Example Block Diagram
 
