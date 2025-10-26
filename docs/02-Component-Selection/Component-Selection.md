@@ -462,6 +462,57 @@ The purpose of this section is to highlight various solutions for the components
 
 **Rationale:** This option forces the student team to delve into how electricity is transferred through space. This also follows the project specifications of not having a daughter board component. Unfortunately, for the accuracy due to soil chemistry that is the best option due to majority of moisture sensors needing a daughter board of some kind in order to function.
 
+## Op-Amp
+
+1. Rail-to-Rail Single Supply Op-Amp
+
+    ![MCP6002](images/op_amp/MCP6002.PNG)
+
+    * $0.50/each
+    * [MCP6002-E/P](https://www.digikey.com/en/products/detail/microchip-technology/MCP6002-E-P/683196)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    |  Inexpensive to purchase                                          |Lost of extra outputs|
+    |  Familiar package                                                 |Low bandwidth (1 MHz)|
+    |  Operates in our range                                            |                     |
+    |  Satisfies project requirements                                   |                     |
+    |                                                                   |                     |
+
+2. IC OPAMP GP 2 CIRCUIT 8SOIC
+
+    ![LM358ADR](images/op_amp/LM358ADR.png)
+
+    * $0.23/each
+    * [LM358ADR](https://www.digikey.com/en/products/detail/texas-instruments/LM358ADR/555721)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    |  Very inexpensive to purchase                                     | Unfamiliar package  |
+    | Fits in project requirements                                       | Only one backup piece |
+    |                                                                    | Surface mount   |
+    |                                                                   |                     |
+    |                                                                   |                     |
+
+3. IC CMPS 4 Circuit 14DIP
+
+    ![LMC6484IN/NOPB](images/op_amp/LMC6484IN.png)
+
+    * $3.64/each
+    * [LMC6484IN/NOPB](https://www.digikey.com/en/products/detail/texas-instruments/LMC6484IN-NOPB/164521)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    |    Through hole mounting                                          | Limited backup options  |
+    |    Designed for a wide voltage range                              | More expensive for an op-amp  |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+
+**Choice:** Option #1: Rail-to-Rail Single Supply Op-Amp
+
+**Rationale:**  This option allows for rapid integration into the project and supplies itself with multiple backups in case the need arises. This allows enables for some damage to occur during shipping. All while having the additional benefit of boosting the signal from the moisture sensor to help ensure the nano can actually read it.
+
 ## **Power Budget**
 
 After all of our components have been selected we need to ensure that we have enough power to actually complete the subsection as we have designed it. Otherwise, we'll need to find a new or a secondary power source or we'll need to choose different components.
