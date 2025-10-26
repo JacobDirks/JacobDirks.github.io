@@ -26,10 +26,11 @@ To get some initial formatting help, one can view ["here"](https://embedded-syst
 Are available as a list here and with all the other options in [*Component Selection.*](https://jacobdirks.github.io/02-Component-Selection/Component-Selection/)
 
 * [*463093691402*](https://www.digikey.com/en/products/detail/w-rth-elektronik/463093691402/14113680?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUmrm-bK4boEMAm9Mk_cnw0iZMQBKQOZvTpEZI7Jhn9Q0tGQiBCwf3BoC28MQAvD_BwE)
+* [*711*](https://www.digikey.com/en/products/detail/adafruit-industries-llc/711/5353610)
 * [*FAN8100N*](https://www.digikey.com/en/products/detail/fairchild-semiconductor/FAN8100N/11558200)
 * [*L7805CV*](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964)
+* [MCP6002-E/P](https://www.digikey.com/en/products/detail/microchip-technology/MCP6002-E-P/683196)
 * [*PJ-102AH*](https://www.digikey.com/en/products/detail/cui-devices/PJ-102AH/408448)
-* [*711*](https://www.digikey.com/en/products/detail/adafruit-industries-llc/711/5353610)
 
 ## **Individual Block Diagram**
 

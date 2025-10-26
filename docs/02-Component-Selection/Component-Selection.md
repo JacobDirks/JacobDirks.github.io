@@ -462,7 +462,7 @@ The purpose of this section is to highlight various solutions for the components
 
 **Rationale:** This option forces the student team to delve into how electricity is transferred through space. This also follows the project specifications of not having a daughter board component. Unfortunately, for the accuracy due to soil chemistry that is the best option due to majority of moisture sensors needing a daughter board of some kind in order to function.
 
-## Op-Amp
+### Op-Amp
 
 1. Rail-to-Rail Single Supply Op-Amp
 

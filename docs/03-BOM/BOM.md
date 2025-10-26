@@ -18,21 +18,19 @@ Up until this point, we have been working mainly in the theoretical realm to cho
 | FUSE GLASS 3A  | 1 | 0.72 | $0.72 | Keystone Electronics | 4628 | [Digikey](https://www.digikey.com/en/products/detail/keystone-electronics/4628/2137316) | [Datasheet](https://www.keyelco.com/userAssets/file/M65p44.pdf) | F1 |
 | Double Sided Male Pin Headers | 46 | 0.56 | $22.52 | Sullins Connector Solutions | PREC040SABN-RC | [Digikey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PREC040SABN-RC/2775014) | [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/386/xRxCzzzSxxN-RC_ST_11635-B.pdf) | ASH HEKP PLEASE |
 | SHUNT 2.54 mm Pitch | 4 | 0.14 | $0.56 | Adam Tech | MSC-G |[Digikey](https://www.digikey.com/en/products/detail/adam-tech/MSC-G/9830571?gclsrc=aw.ds&gad_source=1&gad_campaignid=17336967819&gbraid=0AAAAADrbLljPngf3gDrhSxj-41ZmgUeey&gclid=CjwKCAjwjffHBhBuEiwAKMb8pOpUUK-s3v6RQJFr5RZOPeN3Vwend8QYZ24L0Pq-xSUoGxgkyecdHhoCExEQAvD_BwE) | [Datasheet](https://app.adam-tech.com/products/download/data_sheet/203327/msc-g-data-sheet.pdf) | J1,2,4,6 |
-| Barrel Jack Switch |  |  |  |  |  | [Digikey]() | [Datasheet]() | J32 |
-| Barrel Jack Chord |  |  |  |  |  | [Digikey]() | [Datasheet]() | J32 |
-| DC Motor |  |  |  |  |  | [Digikey]() | [Datasheet]()  | M1 |
-| Op Amp |  |  |  |  |  |  | [Digikey]() | [Datasheet]() | U2 |
-| Ribbon Cable |  |  |  |  |  | [Digikey]() | [Datasheet]()  | J44 |
-| Ribbon Cable Connector |  |  |  |  |  | [Digikey]() | [Datasheet]() | J44 |
-| Resistor (10k Ohm) |  |  |  |  |  |  [Digikey]() | [Datasheet]() | R1,2,4 |
-| Resistor (100 Ohm) |  |  |  |  |  | [Digikey]() | [Datasheet]() | R3 |
-| Limit Switch |  |  |  |  |  | [Digikey]() | [Datasheet]() | S1, S2 |
-| Push button |  |  |  |  |  | [Digikey]() | [Datasheet]() | S3 |
-| H-Bridge |  |  |  |  |  |  | [Digikey]() | [Datasheet]() | U5 |
-| Voltage Regulator |  |  |  |  |  | [Digikey]() | [Datasheet]() | U4 |
-| Curiosity Nano |  |  |  |  |  | [Digikey]() | [Datasheet]() | U1 |
-| Curiosity Nano |  |  |  |  |  | [Digikey]() | [Datasheet]() | U3 |
-
+| Conn Power Jack 2x5.5 mm | 1 | 0.76 | $0.76 | Same Sky | PJ-102AH | [Digikey](https://www.digikey.com/en/products/detail/cui-devices/PJ-102AH/408448) | [Datasheet](https://www.sameskydevices.com/product/resource/pj-102ah.pdf) | J32 |
+| Barrel Jack Chord | 1 | 4.52 | $4.52 | BestCH |  | [Amazon](https://www.amazon.com/dp/B09ZTKTLGW?ref=cm_sw_r_cp_ud_dp_AAE39CF81A1K7EKTBM3W&ref_=cm_sw_r_cp_ud_dp_AAE39CF81A1K7EKTBM3W&social_share=cm_sw_r_cp_ud_dp_AAE39CF81A1K7EKTBM3W) | Unavailable | J32 |
+| DC Mottr Standard 9100 RPM | 1 | 1.95 | $1.95 | Adafruit Industries | 711 | [Digikey](https://www.digikey.com/en/products/detail/adafruit-industries-llc/711/5353610) | [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1040/711_Web.pdf)  | M1 |
+| IC Op AMP Gp | 1 | 0.50 | $0.50 | Microchip Technology | MCP6002 | [Digikey](https://www.digikey.com/en/products/detail/microchip-technology/MCP6002-E-P/683196) | [Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf) | U2 |
+| PC Accessories 8 Inches 20cm 2x4 8P IDC | 1 | 3.85 | $3.85 | Mariv International | K2808-8P20cm-FF-4PK | [Amazon](https://www.amazon.com/gp/product/B07DFBPZLJ?smid=A64W1E1ZZHST0) | Not Provided  | J44 |
+| Connector Receptacle 8POS 2x4 | 1 | 5.99 | $5.99 | Antrader Store | WQ22538 | [Amazon](https://www.amazon.com/gp/product/B0BVHMTY5S?smid=A19TVI3M6WFVG7&th=1) | Not Provided | J44 |
+| Various Resistors (4) | 1 | 9.99 | $9.99 | Elegoo | EL-CK-004 |  [Amazon](https://www.amazon.com/Elegoo-Values-Resistor-Assortment-Compliant/dp/B072BL2VX1/ref=sxin_16_pa_sp_search_thematic_sspa?content-id=amzn1.sym.f3a06935-0d55-4a43-b918-4ea35f8505e5%3Aamzn1.sym.f3a06935-0d55-4a43-b918-4ea35f8505e5&crid=2162YAA3AEQ70&cv_ct_cx=Resistor+10k+ohm&keywords=Resistor+10k+ohm&pd_rd_i=B072BL2VX1&pd_rd_r=5f67a206-5f93-4dfc-ae26-dc70d279bfca&pd_rd_w=4IKkT&pd_rd_wg=ZrFnS&pf_rd_p=f3a06935-0d55-4a43-b918-4ea35f8505e5&pf_rd_r=TDYR5T02Z3NEXPPHBAGB&qid=1761515861&s=industrial&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=resistor+10k+ohm%2Cindustrial%2C150&sr=1-1-6024b2a3-78e4-4fed-8fed-e1613be3bcce-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&psc=1) | Not Provided | R1-4 |
+| Limit Switch | 2 |  |  |  |  | [Digikey]() | [Datasheet]() | S1, S2 |
+| Push button | 1 |  |  |  |  | [Digikey]() | [Datasheet]() | S3 |
+| H-Bridge | 1 |  |  |  |  |  | [Digikey]() | [Datasheet]() | U5 |
+| Voltage Regulator | 1 |  |  |  |  | [Digikey]() | [Datasheet]() | U4 |
+| Curiosity Nano | 1 |  |  |  |  | [Digikey]() | [Datasheet]() | U1 |
+| Sensor setup|  |  |  |  |  | [Digikey]() | [Datasheet]() | U3 |
 
 <!--
 ## Bill of Materials Example (as Table)
