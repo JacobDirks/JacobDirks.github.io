@@ -626,6 +626,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#op-amp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Op-Amp
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#power-budget" class="md-nav__link">
     <span class="md-ellipsis">
       Power Budget
@@ -943,6 +952,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#op-amp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Op-Amp
+    </span>
+  </a>
   
 </li>
       
@@ -1888,6 +1906,125 @@
 </table>
 <p><strong>Choice:</strong> Option 1: Handmade resistive check using nails</p>
 <p><strong>Rationale:</strong> This option forces the student team to delve into how electricity is transferred through space. This also follows the project specifications of not having a daughter board component. Unfortunately, for the accuracy due to soil chemistry that is the best option due to majority of moisture sensors needing a daughter board of some kind in order to function.</p>
+<h2 id="op-amp">Op-Amp</h2>
+<ol>
+<li>
+<p>Rail-to-Rail Single Supply Op-Amp</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/op_amp/MCP6002.PNG" data-desc-position="bottom"><img alt="MCP6002" src="../images/op_amp/MCP6002.PNG"></a></p>
+<ul>
+<li>$0.50/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6002-E-P/683196">MCP6002-E/P</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inexpensive to purchase</td>
+<td>Lost of extra outputs</td>
+</tr>
+<tr>
+<td>Familiar package</td>
+<td>Low bandwidth (1 MHz)</td>
+</tr>
+<tr>
+<td>Operates in our range</td>
+<td></td>
+</tr>
+<tr>
+<td>Satisfies project requirements</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>IC OPAMP GP 2 CIRCUIT 8SOIC</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/op_amp/LM358ADR.png" data-desc-position="bottom"><img alt="LM358ADR" src="../images/op_amp/LM358ADR.png"></a></p>
+<ul>
+<li>$0.23/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/texas-instruments/LM358ADR/555721">LM358ADR</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Very inexpensive to purchase</td>
+<td>Unfamiliar package</td>
+</tr>
+<tr>
+<td>Fits in project requirements</td>
+<td>Only one backup piece</td>
+</tr>
+<tr>
+<td></td>
+<td>Surface mount</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>IC CMPS 4 Circuit 14DIP</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/op_amp/LMC6484IN.png" data-desc-position="bottom"><img alt="LMC6484IN/NOPB" src="../images/op_amp/LMC6484IN.png"></a></p>
+<ul>
+<li>$3.64/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/texas-instruments/LMC6484IN-NOPB/164521">LMC6484IN/NOPB</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Through hole mounting</td>
+<td>Limited backup options</td>
+</tr>
+<tr>
+<td>Designed for a wide voltage range</td>
+<td>More expensive for an op-amp</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> Option #1: Rail-to-Rail Single Supply Op-Amp</p>
+<p><strong>Rationale:</strong>  This option allows for rapid integration into the project and supplies itself with multiple backups in case the need arises. This allows enables for some damage to occur during shipping. All while having the additional benefit of boosting the signal from the moisture sensor to help ensure the nano can actually read it.</p>
 <h2 id="power-budget"><strong>Power Budget</strong></h2>
 <p>After all of our components have been selected we need to ensure that we have enough power to actually complete the subsection as we have designed it. Otherwise, we'll need to find a new or a secondary power source or we'll need to choose different components.</p>
 <p>This information can be found at the <a href="https://jacobdirks.github.io/05-Power-Budget/Power-Budget/"><em>power budget tab</em></a></p>
