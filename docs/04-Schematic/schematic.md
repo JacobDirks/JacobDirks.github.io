@@ -7,7 +7,7 @@ tags:
 
 ## Overview
 
-This schematic is design to support <!--.... (highlight functionally, power, and controller).-->a motor that can move an arm to the limit switch in order to read the moisture of the soil. Through a 9v 3A power supply that is stepped down to a 5V 1A output. This secondary voltage is able to be used by the curiosity nanox;"}
+This schematic is design to support <!--.... (highlight functionally, power, and controller).-->a motor that can move an arm to the limit switch in order to read the moisture of the soil. Through a 9v 3A power supply that is stepped down to a 5V 1A output. This secondary voltage is able to be used by the curiosity nano.
 
 **Figure #1:** The full schematic.  
 
