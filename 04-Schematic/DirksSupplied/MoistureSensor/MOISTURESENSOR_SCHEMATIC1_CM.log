@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+                               ORCAD CM MIGRATION
+--------------------------------------------------------------------------------
+C:\USERS\PRECISION\DESKTOP\CADENCE\PROJECTS\INDIVSUBSYSTEM\MOISTURESENSOR.DSN   
+2025-10-20 at 19:58:19                                                          
+--------------------------------------------------------------------------------
+	Number of DiffPair Migrated                                : 0
+	Number of XNET Migrated                                    : 1
+	Number of Pin Constraints Migrated                         : 0
+	Number of Net Constraints Migrated                         : 0
+	Number of Physical Class Added                             : 0
+	Number of Spacing Class Added                              : 0
+	Number of Electrical CSET Added                            : 0
+	Number of Warning Encountered                              : 0
+--------------------------------------------------------------------------------
+.XNET: 
+	N139001                                 N139000,N139001
+--------------------------------------------------------------------------------
