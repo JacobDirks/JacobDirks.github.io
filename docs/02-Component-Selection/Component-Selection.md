@@ -166,9 +166,8 @@ The purpose of this section is to highlight various solutions for the components
     |                                                                   | Barrel jacks have a lot of variability so replacement is difficult on the user’s side |
     |                                                                   | Ports are prone to loosening over time with several movements |
 
-**Choice:** Option 2: BestCH 9V 3A AC Adapter
-
-**Rationale:** A barrel jack port works with project specifications and also helps prevent user error while inputting the power supply. The BestCH 9V 3A AC Adapter works the best of the two devices following this form factor. A bonus fact is that the team knows the process to connect it safely to the Micro-controller and various components. This provides ample power for everything within the circuit and doesn't require us to ramp voltage up through another means to power the most voltage intensive elements. The cost being lower than the other two options is a positive but not a critically deciding factor as there are other power supply options that are around the same price point.
+> **Choice:** Option 2: BestCH 9V 3A AC Adapter  
+> **Rationale:** A barrel jack port works with project specifications and also helps prevent user error while inputting the power supply. The BestCH 9V 3A AC Adapter works the best of the two devices following this form factor. A bonus fact is that the team knows the process to connect it safely to the Micro-controller and various components. This provides ample power for everything within the circuit and doesn't require us to ramp voltage up through another means to power the most voltage intensive elements. The cost being lower than the other two options is a positive but not a critically deciding factor as there are other power supply options that are around the same price point.
 
 ### **Limit Switch**
 
@@ -218,9 +217,8 @@ The purpose of this section is to highlight various solutions for the components
     | Three states, but only two pins required                          |                                                                      |
     | Through hole mounting                                             |                                                                      |
 
-**Choice:** Option 3: Limit Switch SPDT 3A 125V
-
-**Rationale:** This limit switch is rated for the maximum power supply current and for a higher voltage than the project will be using. It's useful in ensuring the motor doesn't go too far and making it so the moisture sensor won't corrode by being in the soil for long periods of time. This particular option is better than the rest due to the smaller size and mounting options. Since it is smaller we won't need as powerful a motor to move the prismatic joint and other components at the end toward the plant. Secondarily, the cylindrical element at the end can create a depression in the soil which will have even more resistance to being moved and will help the actuation of the switch part of the component.
+> **Choice:** Option 3: Limit Switch SPDT 3A 125V  
+> **Rationale:** This limit switch is rated for the maximum power supply current and for a higher voltage than the project will be using. It's useful in ensuring the motor doesn't go too far and making it so the moisture sensor won't corrode by being in the soil for long periods of time. This particular option is better than the rest due to the smaller size and mounting options. Since it is smaller we won't need as powerful a motor to move the prismatic joint and other components at the end toward the plant. Secondarily, the cylindrical element at the end can create a depression in the soil which will have even more resistance to being moved and will help the actuation of the switch part of the component.
 
 ### **Motor Driver**
 
@@ -263,9 +261,8 @@ The purpose of this section is to highlight various solutions for the components
     | Plug-and-play on breadboard                                       | Needs extra male pin connectors to attach                            |
     | Supports PWM and H-Bridge control                                 |                                                                      |
 
-**Choice:** Option 1: Brush DC Motor Controller
-
-**Rationale:** Even though it adds a component, it follows project specifications and helps ensure the mechanical testing of the motor part. It doesn't hurt that there is a secondary integrated circuit for potential mishaps. Also the unique footprint of the through-hole option helps create an easier design assembly. As an added benefit the team knows how to use this particular component in order to drive a similar motor which will help in testing the overall system. It also removes a limit on the potential motor options and if the motor chosen later doesn't require one then we can change to Option 2. (Spoiler the motor chosen uses this.)
+> **Choice:** Option 1: Brush DC Motor Controller  
+> **Rationale:** Even though it adds a component, it follows project specifications and helps ensure the mechanical testing of the motor part. It doesn't hurt that there is a secondary integrated circuit for potential mishaps. Also the unique footprint of the through-hole option helps create an easier design assembly. As an added benefit the team knows how to use this particular component in order to drive a similar motor which will help in testing the overall system. It also removes a limit on the potential motor options and if the motor chosen later doesn't require one then we can change to Option 2. (Spoiler the motor chosen uses this.)
 
 ### **Voltage Regulator**
 
@@ -312,9 +309,8 @@ The purpose of this section is to highlight various solutions for the components
     | Design equations provided                                         | Larger footprint than L7805CV                                       |
     | Can be surface or through-hole mounted                            |                                                                      |
 
-**Choice:** Option 2: Linear Voltage Regulator IC Positive Fixed 1 Output
-
-**Rationale:** A linear voltage regulator is a clean solution to help get the power down from a higher voltage and amperage to the voltage we need for parts of this sub-system. In turn this one allows for an additional heat sink attachment if required to help prevent dangerous conditions and enable long-term use. While the price point isn't that much different from a switching regulator the ease of integration into the circuit elevates this option over the others. Also the consistency of this option promotes it over using a line of resistors.
+> **Choice:** Option 2: Linear Voltage Regulator IC Positive Fixed 1 Output  
+> **Rationale:** A linear voltage regulator is a clean solution to help get the power down from a higher voltage and amperage to the voltage we need for parts of this sub-system. In turn this one allows for an additional heat sink attachment if required to help prevent dangerous conditions and enable long-term use. While the price point isn't that much different from a switching regulator the ease of integration into the circuit elevates this option over the others. Also the consistency of this option promotes it over using a line of resistors.
 
 ### **Barrel Jack**
 
@@ -361,9 +357,8 @@ The purpose of this section is to highlight various solutions for the components
     | Through-hole attachment                                           |                                                                      |
     | Rated for 24V/5A                                                  |                                                                      |
 
-**Choice:** Option 2: Power Barrel Connector Jack 2.00mm ID (0.079"), 5.50mm OD (0.217") Through Hole, Right Angle
-
-**Rationale:** A barrel jack is a good input due to the form factor of the power supply. However, the right angle of the pins allows us to at least create some form of security for the board as well as offer mechanical stability. Otherwise the footprint is distinct which will help in identifying its location on the board. Since it is a hard mechanical component we don't have to worry about it being taken out of the housing or tearing lose from the soldered ends as easily as the amorphous solution. Also due to the pins being perpendicular to the force of the plug being inserted or extracted we know that the solder won't get pulled on its thinnest surface area.
+> **Choice:** Option 2: Power Barrel Connector Jack 2.00mm ID (0.079"), 5.50mm OD (0.217") Through Hole, Right Angle  
+> **Rationale:** A barrel jack is a good input due to the form factor of the power supply. However, the right angle of the pins allows us to at least create some form of security for the board as well as offer mechanical stability. Otherwise the footprint is distinct which will help in identifying its location on the board. Since it is a hard mechanical component we don't have to worry about it being taken out of the housing or tearing lose from the soldered ends as easily as the amorphous solution. Also due to the pins being perpendicular to the force of the plug being inserted or extracted we know that the solder won't get pulled on its thinnest surface area.
 
 ### **Motor**
 
@@ -411,9 +406,8 @@ The purpose of this section is to highlight various solutions for the components
     | High torque                                                       |                                                                      |
     | No motor controller needed                                        |                                                                      |
 
-**Choice:** Option 2: DC Motor Standard 9100 RPM 6VDC
-
-**Rationale:** While it does have a lowered torque this acts as a safety feature for both the user and the plant in case the moisture sensor is misaligned. Also the flat sides on the housing of the motor allow for a brace to be installed in order to ensure the motor doesn't just spin. An added benefit of not having an encoder is a reduction in the wires that need to be connected directly to the motor. Reducing the amount of wires that would be exposed to the user's environment and needed to be searched to debug errors with the motor. Its size also helps the keep the housing smaller and doesn't force the team to come up with a clever way to hide it or to prevent damage over a larger surface.
+> **Choice:** Option 2: DC Motor Standard 9100 RPM 6VDC  
+> **Rationale:** While it does have a lowered torque this acts as a safety feature for both the user and the plant in case the moisture sensor is misaligned. Also the flat sides on the housing of the motor allow for a brace to be installed in order to ensure the motor doesn't just spin. An added benefit of not having an encoder is a reduction in the wires that need to be connected directly to the motor. Reducing the amount of wires that would be exposed to the user's environment and needed to be searched to debug errors with the motor. Its size also helps the keep the housing smaller and doesn't force the team to come up with a clever way to hide it or to prevent damage over a larger surface.
 
 ### **Moisture Sensor**
 
@@ -458,9 +452,8 @@ The purpose of this section is to highlight various solutions for the components
    | Usable in hydroponics                   |                                            |
    | Long-lasting corrosion-resistant design |                                            |
 
-**Choice:** Option 1: Handmade resistive check using nails
-
-**Rationale:** This option forces the student team to delve into how electricity is transferred through space. This also follows the project specifications of not having a daughter board component. Unfortunately, for the accuracy due to soil chemistry that is the best option due to majority of moisture sensors needing a daughter board of some kind in order to function.
+> **Choice:** Option 1: Handmade resistive check using nails  
+> **Rationale:** This option forces the student team to delve into how electricity is transferred through space. This also follows the project specifications of not having a daughter board component. Unfortunately, for the accuracy due to soil chemistry that is the best option due to majority of moisture sensors needing a daughter board of some kind in order to function.
 
 ### Op-Amp
 
@@ -509,9 +502,8 @@ The purpose of this section is to highlight various solutions for the components
     |                                                                   |                     |
     |                                                                   |                     |
 
-**Choice:** Option #1: Rail-to-Rail Single Supply Op-Amp
-
-**Rationale:**  This option allows for rapid integration into the project and supplies itself with multiple backups in case the need arises. This allows enables for some damage to occur during shipping. All while having the additional benefit of boosting the signal from the moisture sensor to help ensure the nano can actually read it.
+> **Choice:** Option #1: Rail-to-Rail Single Supply Op-Amp
+> **Rationale:**  This option allows for rapid integration into the project and supplies itself with multiple backups in case the need arises. This allows enables for some damage to occur during shipping. All while having the additional benefit of boosting the signal from the moisture sensor to help ensure the nano can actually read it.
 
 ## **Power Budget**
 
