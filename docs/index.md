@@ -7,11 +7,11 @@ tags:
 <center>
 <font size= "6">Jacob Dirks Datasheet</font><br>
 as part of<br>
-<font size= "8"> Irrigation Project - Individual DataSheet</font><br>
+<font size= "8"> Irrigation Project</font><br>
 for<br>
 <font size= "5"> Team 102 </font><br>
 
-**Submission: month, DD, 2025**
+**Submission: October, 26, 2025**
 </center>
 
 ## **Introduction**
@@ -37,5 +37,6 @@ For all the sections -->
 
 * To review the overarching diagram relating to the subsection, please visit the ["Block Diagram"](https://jacobdirks.github.io/01-Block-Diagram/Block-Diagram/) section of the database.
 * To review the details regarding the components used to construct the subsection, you can review it in the ["Component Selection"](https://jacobdirks.github.io/02-Component-Selection/Component-Selection/#power-budget) section of the database.
+* To review the final selection as well as the number of parts please visit the ["BOM"](https://jacobdirks.github.io/03-BOM/BOM/) section of the datasheet.
+* To review the details regarding the schematic, please visit the ["Schematic"](https://jacobdirks.github.io/04-Schematic/schematic/) section of the database.
 * To review the details regarding power consumption, please visit the ["Power Budget"](https://jacobdirks.github.io/05-Power-Budget/Power-Budget/) section of the database.
-* To review the details regarding the schematic, please visit the ["schematic"](https://jacobdirks.github.io/04-Schematic/schematic/) section of the database.
