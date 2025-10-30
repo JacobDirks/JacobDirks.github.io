@@ -1,6 +1,6 @@
 (ExpressProject "moistureSensor"
   (ProjectVersion "19981106")
-  (SoftwareVersion "22.1 S011 (4241994)  [9/28/2024]-[10/27/25]")
+  (SoftwareVersion "22.1 S011 (4241994)  [9/28/2024]-[10/29/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -117,6 +117,11 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (malePinPlaceHolderOutput_JMD
+      (FullPartName "malePinPlaceHolderOutput_JMD.Normal")
+      (LibraryName
+         "C:\USERS\PRECISION\DESKTOP\CADENCE\PROJECTS\HW_02_V2_POWERSUPPLYDESIGN\HW02SUBMISSION\LIBRARY_DIRKS.OLB")
+      (DeviceIndex "0"))
     (MoistureSenosr_JMD
       (FullPartName "MoistureSenosr_JMD.Normal")
       (LibraryName
@@ -190,9 +195,6 @@
          "c:\users\precision\desktop\cadence\projects\indivsubsystem\moisturesensor.dsn")
       (Path "Design Resources"
          "c:\users\precision\desktop\cadence\projects\indivsubsystem\moisturesensor.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources"
-         "c:\users\precision\desktop\cadence\projects\indivsubsystem\moisturesensor.dsn"
          "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
@@ -200,7 +202,7 @@
       (Path "Outputs")
       (Select "Design Resources"
          "c:\users\precision\desktop\cadence\projects\indivsubsystem\moisturesensor.dsn"
-         "SCHEMATIC1" "PAGE1"))
+         "Design Cache" "malePinPlaceHolderOutput_JMD"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -210,17 +212,17 @@
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 718"))
+        (Placement "44 0 1 -1 -1 -8 -31 5 1674 24 718"))
       (Path
          "C:\USERS\PRECISION\DESKTOP\CADENCE\PROJECTS\HW_02_V2_POWERSUPPLYDESIGN\HW02SUBMISSION\LIBRARY_DIRKS.OLB")
-      (Package "MOISTURESENOSR_JMD")
+      (Package "MALEPINPLACEHOLDEROUTPUT_JMD")
       (PartType "1"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1674 24 718")
-        (Scroll "-382 -7")
-        (Zoom "90")
+        (Scroll "110 0")
+        (Zoom "180")
         (Occurrence "/"))
       (Path
          "C:\USERS\PRECISION\DESKTOP\CADENCE\PROJECTS\INDIVSUBSYSTEM\MOISTURESENSOR.DSN")
