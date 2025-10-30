@@ -502,7 +502,7 @@ The purpose of this section is to highlight various solutions for the components
     |                                                                   |                     |
     |                                                                   |                     |
 
-> **Choice:** Option #1: Rail-to-Rail Single Supply Op-Amp
+> **Choice:** Option #1: Rail-to-Rail Single Supply Op-Amp  
 > **Rationale:**  This option allows for rapid integration into the project and supplies itself with multiple backups in case the need arises. This allows enables for some damage to occur during shipping. All while having the additional benefit of boosting the signal from the moisture sensor to help ensure the nano can actually read it.
 
 ## **Power Budget**
