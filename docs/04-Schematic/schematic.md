@@ -28,3 +28,5 @@ This schematic is design to support <!--.... (highlight functionally, power, and
 ## **Resources**
 
 The schematic is available as a [*pdf file*](DirksSupplied/schematic.pdf), and the project is available as a [*zip folder*](DirksSupplied/MoistureSensor.zip).
+
+For the PCB elements please visit the ["PCB"](https://jacobdirks.github.io/06-PCB/PCB/) section of the document.
