@@ -40,4 +40,4 @@ For all the sections -->
 * To review the final selection as well as the number of parts please visit the ["BOM"](https://jacobdirks.github.io/03-BOM/BOM/) section of the datasheet.
 * To review the details regarding the schematic, please visit the ["Schematic"](https://jacobdirks.github.io/04-Schematic/schematic/) section of the database.
 * To review the details regarding power consumption, please visit the ["Power Budget"](https://jacobdirks.github.io/05-Power-Budget/Power-Budget/) section of the database.
-* To review the details regarding the pcb, please visit the ["PCB"]((https://jacobdirks.github.io/06-PCB/PCB/)) section of the database.
+* To review the details regarding the pcb, please visit the ["PCB"](https://jacobdirks.github.io/06-PCB/pcb/) section of the database.

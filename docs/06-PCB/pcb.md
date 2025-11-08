@@ -7,11 +7,11 @@ tags:
 
 ## Images
 
-![Top PCB PNG](supplied/top.PNG)  
+![Top PCB PNG](supplied/top.PNG){style="max-height:300px;"}  
 
 **Figure 1:** Top view of the PCB.
 
-![Bottom PCB PNG](supplied/bottom.PNG)  
+![Bottom PCB PNG](supplied/bottom.PNG){style="max-height:300px;"}  
 
 **Figure 2:** Bottom view of the PCB.
 
