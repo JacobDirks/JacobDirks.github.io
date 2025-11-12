@@ -15,7 +15,7 @@ After selecting components in [*Component Selection*](https://jacobdirks.github.
 
 ## **Conclusions**
 
-A single barrel jack port that is delivering 9V and 3A into the system is sufficient for the needs of the subsystem. If needed we have some power left over that we could add some new features after getting client feedback.
+A single barrel jack port that is delivering 9V and 3A into the system is sufficient for the needs of the subsystem. If needed we have some power left over that we could add some new features after getting client feedback. However, we do not need the full 3A capabilities and could get away with around .8A going through a fuse into the system.
 
 ## **Resources**
 
