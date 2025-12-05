@@ -41,3 +41,4 @@ For all the sections -->
 * To review the details regarding the schematic, please visit the ["Schematic"](https://jacobdirks.github.io/04-Schematic/schematic/) section of the database.
 * To review the details regarding power consumption, please visit the ["Power Budget"](https://jacobdirks.github.io/05-Power-Budget/Power-Budget/) section of the database.
 * To review the details regarding the pcb, please visit the ["PCB"](https://jacobdirks.github.io/06-PCB/pcb/) section of the database.
+* To review the details regarding the code, please visit the ["MPLAB code"](https://jacobdirks.github.io/07-Code/mplabCode/) section of the database.

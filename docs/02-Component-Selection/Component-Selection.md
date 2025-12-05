@@ -187,7 +187,7 @@ The purpose of this section is to highlight various solutions for the components
     |                                                                   | Hard to see limit is found                                           |
     |                                                                   | Target surface may move without mechanical support                   |
 
-1. Switch Snap Action SPDT
+2. Switch Snap Action SPDT
 
     ![Limit Switch similar to EGR 102](images/limitSwitch/MS0850502F030P1A_LimitSwitch1.png){style="max-height:200px;"}
 
@@ -202,7 +202,7 @@ The purpose of this section is to highlight various solutions for the components
     | 50k+ operation lifespan                                           |                                                                      |
     |                                                                   |                                                                      |
 
-1. Limit Switch SPDT 3A 125V
+3. Limit Switch SPDT 3A 125V
 
     ![New Limit Switch with a circle ending](images/limitSwitch/MFG_463093691402LimitSwitch.png){style="max-height:200px;"}
 
@@ -311,54 +311,6 @@ The purpose of this section is to highlight various solutions for the components
 
 > **Choice:** Option 2: Linear Voltage Regulator IC Positive Fixed 1 Output  
 > **Rationale:** A linear voltage regulator is a clean solution to help get the power down from a higher voltage and amperage to the voltage we need for parts of this sub-system. In turn this one allows for an additional heat sink attachment if required to help prevent dangerous conditions and enable long-term use. While the price point isn't that much different from a switching regulator the ease of integration into the circuit elevates this option over the others. Also the consistency of this option promotes it over using a line of resistors.
-
-### **Barrel Jack**
-
-1. Cable Assembly 2.1mm ID, 5.5mm OD Jack to Wire Leads
-
-    ![Amorphous Barrel Jack](images/BarrelJack/10-02248_wire.png){style="max-height:200px;"}
-
-    * $3.12/each
-    * [*10-02248*](https://www.digikey.com/en/products/detail/tensility-international-corp/10-02248/6412283?gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLljrcXxUCV1LTsO6jxX4XA7oB&gclid=CjwKCAjwr8LHBhBKEiwAy47uUhWfRJa1WjSa7oFyE4S57edtEmoB1vwpPt2mvGG0NypB_fi1XxlHgBoC86AQAvD_BwE&gclsrc=aw.ds)
-
-    | Pros                                                              | Cons                                                                 |
-    | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
-    | Matches power supply output port                                  | Amorphous shape makes secure mounting difficult                      |
-    | Could be sealed for water resistance                              | Hard to diagnose wire issues                                         |
-    | Variable footprint flexibility                                    | Only one ground contact                                              |
-
-2. Power Barrel Connector Jack 2.00mm ID (0.079"), 5.50mm OD (0.217") Through Hole, Right Angle
-
-    ![Pins perpendicular to plug barrel jack](images/BarrelJack/PJ-102AH_square.png){style="max-height:200px;"}
-
-    * $0.76/each
-    * [*PJ-102AH*](https://www.digikey.com/en/products/detail/cui-devices/PJ-102AH/408448)
-
-    | Pros                                                              | Cons                                                                 |
-    | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
-    | Stable footprint                                                  | Difficult to waterproof                                              |
-    | 3 contacts from 2 conductors                                      | No built-in protection                                               |
-    | Through-hole mounted                                              | Pins fragile until PCB-mounted                                       |
-    | Matches supply ports                                              |                                                                      |
-    | Rated for 24V/5A                                                  |                                                                      |
-
-3. PJ-044BH - butt pins
-
-    ![Pins parallel to plug](images/BarrelJack/PJ-044BH_column.png){style="max-height:200px;"}
-
-    * $5.96/each
-    * [*PJ-044BH*](<link>)
-
-    | Pros                                                              | Cons                                                                 |
-    | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
-    | Pins positioned at rear                                           | Internal exposure if seal is broken                                  |
-    | Matches supply output port                                        | No electrical protection                                             |
-    | 3 contacts from 2 conductors                                      | Needs firm PCB mounting                                              |
-    | Through-hole attachment                                           |                                                                      |
-    | Rated for 24V/5A                                                  |                                                                      |
-
-> **Choice:** Option 2: Power Barrel Connector Jack 2.00mm ID (0.079"), 5.50mm OD (0.217") Through Hole, Right Angle  
-> **Rationale:** A barrel jack is a good input due to the form factor of the power supply. However, the right angle of the pins allows us to at least create some form of security for the board as well as offer mechanical stability. Otherwise the footprint is distinct which will help in identifying its location on the board. Since it is a hard mechanical component we don't have to worry about it being taken out of the housing or tearing lose from the soldered ends as easily as the amorphous solution. Also due to the pins being perpendicular to the force of the plug being inserted or extracted we know that the solder won't get pulled on its thinnest surface area.
 
 ### **Motor**
 
@@ -509,4 +461,14 @@ The purpose of this section is to highlight various solutions for the components
 
 After all of our components have been selected we need to ensure that we have enough power to actually complete the subsection as we have designed it. Otherwise, we'll need to find a new or a secondary power source or we'll need to choose different components.
 
-This information can be found at the [*power budget tab*](https://jacobdirks.github.io/05-Power-Budget/Power-Budget/)
+This information can be found at the [*Power Budget tab*](https://jacobdirks.github.io/05-Power-Budget/Power-Budget/)
+
+## **Microcontroller subsystems**
+
+In order to prevent confusion later on, we will include some information from the ["Block Diagram tab."](https://jacobdirks.github.io/01-Block-Diagram/Block-Diagram/) More specifically the information regarding which microcontroller subsystems.
+
+| Subsystem | Pins |
+| :--------------- | :--------------------|
+| ADCC | RA0, RD1  |
+| DAC  | RA2   |
+| GPIO | RB0, RB5, RB6, RD5, RD6, RD7, RF3  |
