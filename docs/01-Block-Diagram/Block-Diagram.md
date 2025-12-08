@@ -30,4 +30,22 @@ For the final choices and the amounts please visit the ["BOM"](https://jacobdirk
 
 ![Uh oh we lost the Block Diagram](images/DirksBlockDiagramT102.png){style="max-height:500px;"}
 
-This block diagram is available on [*as a draw io file*](images/DirksBlockDiagram.drawio) and it can be found [*in pdf form here.*](images/EGR304IndividualBlockDiagram.pdf)
+## **Project Verification**
+
+This project has a number of requirements for both the team and the individual in order to be marked as a success.
+
+### **Individual Subsystem Requirements**
+
+> * A 5V Linear Regulator
+> * Barrel Jack adapter for your 9V power supply
+> * A pre-selected microcontroller: a Microchip PIC18F57Q43 Curiosity Nano Development Board
+> * At least one distinct sensing or actuation functionality (four functionalities would be required across a four-person team)
+> * While individual modules are expected to have either sensing or actuation functionality as a minimum, there is an expectation that a mix of both sensing and actuation functionalities will be present when all the team modules are connected together.
+> * It is not permitted to replicate subsystem functionality within a team, or copy a classmate's design. Subsystems must be materially different, using different chips, design processes, and accomplishing different functions.
+> * Individual subsystems are required to connect to teammates' boards using the connector listed above. It is up to the team to determine what information to pass and to whom, but individuals will be required to demonstrate basic connectivity and data passing capabilities before being able to connect their device to their team's connectors.
+
+These traits can be seen in the block diagram for the individual subsection. On the bottom right of the block diagram we can see the 9V 3A Power supply which connects with the second bullet point. The barrel jack isn't placed on the block diagram as a block because that is a lower level detail that is covered by the higher details of voltage and amperage. Moving up directly from there we can find the 5V 1.5A voltage regulator and this part is a linear voltage regulator completing the first bullet point of requirements. This helps ensure that we have the correct level of power for the pre-selected microcontroller (top left to top center). In the case of this subsystem we have a distinct moisture sensing component which combines information in the other subsystems to tell the main controller whether or not to turn on a pump. Secondarily to ensure we meet sensing/actuation requirements the block diagram shows a motor as well as limit switches. These limit switches help control the range the motor operates in so that the motor can operate in a safe manner in relation to the moisture sensor. Finally returning to the bottom but this time on the left we can see the 8 pin connector used to communicate in between boards. Allowing for the final requirement to be seen through the jumper pin array as well as the direct connections to the micro controller.
+
+## **Additional File Types**
+
+This block diagram is available on [*as a draw io file*](images/DirksBlockDiagram.drawio) and it can be found [*in pdf form here*](images/EGR304IndividualBlockDiagram.pdf) and finally the combined files can be found ["as a zip file."](images/MoistureSensorblockDiagram.zip)

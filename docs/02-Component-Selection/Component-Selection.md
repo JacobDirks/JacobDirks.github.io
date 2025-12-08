@@ -117,7 +117,7 @@ tags:
 The purpose of this section is to highlight various solutions for the components used in the subsystem and identify the choices that will best suit this project.
 
 ## **Components**
-
+<!--
 ### **External Power Supply**
 
 1. USB Power Bank Battery Charger 2A
@@ -169,56 +169,7 @@ The purpose of this section is to highlight various solutions for the components
 > **Choice:** Option 2: BestCH 9V 3A AC Adapter  
 > **Rationale:** A barrel jack port works with project specifications and also helps prevent user error while inputting the power supply. The BestCH 9V 3A AC Adapter works the best of the two devices following this form factor. A bonus fact is that the team knows the process to connect it safely to the Micro-controller and various components. This provides ample power for everything within the circuit and doesn't require us to ramp voltage up through another means to power the most voltage intensive elements. The cost being lower than the other two options is a positive but not a critically deciding factor as there are other power supply options that are around the same price point.
 
-### **Limit Switch**
-
-1. Switch Tactile SPST-NO 0.05A 12V
-
-    ![Push Button used in a different way](images/limitSwitch/MFG_TS02-Sm-BK-LCR_pushButton.png){style="max-height:200px;"}
-
-    * $0.10/each
-    * [*TS02-66-60-BK-160-LCR-D*](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/TS02-66-60-BK-160-LCR-D/15634268?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUh-cogwbaGtzIIgXFJdfVBIwK43Z69rQIvC9JF_tBIOo4p1fC_SE3BoCO44QAvD_BwE)
-
-    | Pros                                                              | Cons                                                                 |
-    | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
-    | Small outline                                                     | Not easily mounted                                                   |
-    | Doesn’t require a lot of power                                    | Could require a secondary breadboard area to mount                   |
-    | Signals can be in parallel                                        | Small sensing area                                                   |
-    |                                                                   | More force than a traditional limit switch                           |
-    |                                                                   | Hard to see limit is found                                           |
-    |                                                                   | Target surface may move without mechanical support                   |
-
-2. Switch Snap Action SPDT
-
-    ![Limit Switch similar to EGR 102](images/limitSwitch/MS0850502F030P1A_LimitSwitch1.png){style="max-height:200px;"}
-
-    * $1.35/each
-    * [*MS0850502F030P1A*](https://www.digikey.com/en/products/detail/e-switch/MS0850502F030P1A/1628122?gclsrc=aw.ds&gad_source=4&gad_campaignid=20243136172&gbraid=0AAAAADrbLlj9VOp3m0S33_Eo5bb054Aan&gclid=CjwKCAjw6P3GBhBVEiwAJPjmLlhCRaDt99omgLz1hzmr-Y8tHiwT0D3Go3Vv2fcdLCyhnChq4JJsNxoCfLgQAvD_BwE)
-
-    | Pros                                                              | Cons                                                                 |
-    | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
-    | Through hole mounting                                             | Relatively large                                                     |
-    | Doesn’t need PCB connection directly (can wire connect)           | Needs support if at the end of actuator range                        |
-    | Three states, but only two pins required                          | Acts parallel to placement                                           |
-    | 50k+ operation lifespan                                           |                                                                      |
-    |                                                                   |                                                                      |
-
-3. Limit Switch SPDT 3A 125V
-
-    ![New Limit Switch with a circle ending](images/limitSwitch/MFG_463093691402LimitSwitch.png){style="max-height:200px;"}
-
-    * $4.00/each
-    * [*463093691402*](https://www.digikey.com/en/products/detail/w-rth-elektronik/463093691402/14113680?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUmrm-bK4boEMAm9Mk_cnw0iZMQBKQOZvTpEZI7Jhn9Q0tGQiBCwf3BoC28MQAvD_BwE)
-
-    | Pros                                                              | Cons                                                                 |
-    | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
-    | Thinner than other options                                        | Bent pin mounts                                                      |
-    | Circle likely catches movement better than straight bar           | Pin connection extends past part width                               |
-    | Can be mounted away from PCB                                      |                                                                      |
-    | Three states, but only two pins required                          |                                                                      |
-    | Through hole mounting                                             |                                                                      |
-
-> **Choice:** Option 3: Limit Switch SPDT 3A 125V  
-> **Rationale:** This limit switch is rated for the maximum power supply current and for a higher voltage than the project will be using. It's useful in ensuring the motor doesn't go too far and making it so the moisture sensor won't corrode by being in the soil for long periods of time. This particular option is better than the rest due to the smaller size and mounting options. Since it is smaller we won't need as powerful a motor to move the prismatic joint and other components at the end toward the plant. Secondarily, the cylindrical element at the end can create a depression in the soil which will have even more resistance to being moved and will help the actuation of the switch part of the component.
+-->
 
 ### **Motor Driver**
 
@@ -361,6 +312,57 @@ The purpose of this section is to highlight various solutions for the components
 > **Choice:** Option 2: DC Motor Standard 9100 RPM 6VDC  
 > **Rationale:** While it does have a lowered torque this acts as a safety feature for both the user and the plant in case the moisture sensor is misaligned. Also the flat sides on the housing of the motor allow for a brace to be installed in order to ensure the motor doesn't just spin. An added benefit of not having an encoder is a reduction in the wires that need to be connected directly to the motor. Reducing the amount of wires that would be exposed to the user's environment and needed to be searched to debug errors with the motor. Its size also helps the keep the housing smaller and doesn't force the team to come up with a clever way to hide it or to prevent damage over a larger surface.
 
+### **Limit Switch**
+
+1. Switch Tactile SPST-NO 0.05A 12V
+
+    ![Push Button used in a different way](images/limitSwitch/MFG_TS02-Sm-BK-LCR_pushButton.png){style="max-height:200px;"}
+
+    * $0.10/each
+    * [*TS02-66-60-BK-160-LCR-D*](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/TS02-66-60-BK-160-LCR-D/15634268?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUh-cogwbaGtzIIgXFJdfVBIwK43Z69rQIvC9JF_tBIOo4p1fC_SE3BoCO44QAvD_BwE)
+
+    | Pros                                                              | Cons                                                                 |
+    | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
+    | Small outline                                                     | Not easily mounted                                                   |
+    | Doesn’t require a lot of power                                    | Could require a secondary breadboard area to mount                   |
+    | Signals can be in parallel                                        | Small sensing area                                                   |
+    |                                                                   | More force than a traditional limit switch                           |
+    |                                                                   | Hard to see limit is found                                           |
+    |                                                                   | Target surface may move without mechanical support                   |
+
+2. Switch Snap Action SPDT
+
+    ![Limit Switch similar to EGR 102](images/limitSwitch/MS0850502F030P1A_LimitSwitch1.png){style="max-height:200px;"}
+
+    * $1.35/each
+    * [*MS0850502F030P1A*](https://www.digikey.com/en/products/detail/e-switch/MS0850502F030P1A/1628122?gclsrc=aw.ds&gad_source=4&gad_campaignid=20243136172&gbraid=0AAAAADrbLlj9VOp3m0S33_Eo5bb054Aan&gclid=CjwKCAjw6P3GBhBVEiwAJPjmLlhCRaDt99omgLz1hzmr-Y8tHiwT0D3Go3Vv2fcdLCyhnChq4JJsNxoCfLgQAvD_BwE)
+
+    | Pros                                                              | Cons                                                                 |
+    | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
+    | Through hole mounting                                             | Relatively large                                                     |
+    | Doesn’t need PCB connection directly (can wire connect)           | Needs support if at the end of actuator range                        |
+    | Three states, but only two pins required                          | Acts parallel to placement                                           |
+    | 50k+ operation lifespan                                           |                                                                      |
+    |                                                                   |                                                                      |
+
+3. Limit Switch SPDT 3A 125V
+
+    ![New Limit Switch with a circle ending](images/limitSwitch/MFG_463093691402LimitSwitch.png){style="max-height:200px;"}
+
+    * $4.00/each
+    * [*463093691402*](https://www.digikey.com/en/products/detail/w-rth-elektronik/463093691402/14113680?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUmrm-bK4boEMAm9Mk_cnw0iZMQBKQOZvTpEZI7Jhn9Q0tGQiBCwf3BoC28MQAvD_BwE)
+
+    | Pros                                                              | Cons                                                                 |
+    | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
+    | Thinner than other options                                        | Bent pin mounts                                                      |
+    | Circle likely catches movement better than straight bar           | Pin connection extends past part width                               |
+    | Can be mounted away from PCB                                      |                                                                      |
+    | Three states, but only two pins required                          |                                                                      |
+    | Through hole mounting                                             |                                                                      |
+
+> **Choice:** Option 3: Limit Switch SPDT 3A 125V  
+> **Rationale:** This limit switch is rated for the maximum power supply current and for a higher voltage than the project will be using. It's useful in ensuring the motor doesn't go too far and making it so the moisture sensor won't corrode by being in the soil for long periods of time. This particular option is better than the rest due to the smaller size and mounting options. Since it is smaller we won't need as powerful a motor to move the prismatic joint and other components at the end toward the plant. Secondarily, the cylindrical element at the end can create a depression in the soil which will have even more resistance to being moved and will help the actuation of the switch part of the component.
+
 ### **Moisture Sensor**
 
 1. Handmade Resistive check using nails
@@ -457,6 +459,16 @@ The purpose of this section is to highlight various solutions for the components
 > **Choice:** Option #1: Rail-to-Rail Single Supply Op-Amp  
 > **Rationale:**  This option allows for rapid integration into the project and supplies itself with multiple backups in case the need arises. This allows enables for some damage to occur during shipping. All while having the additional benefit of boosting the signal from the moisture sensor to help ensure the nano can actually read it.
 
+## **Final Selection Table**
+
+| Function | Part Name |
+| :------------------------- | :-----------------------------------|
+| Motor Driver | [*FAN8100N*](https://www.digikey.com/en/products/detail/fairchild-semiconductor/FAN8100N/11558200) |
+| Voltage Regulator | [*L7805CV*](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964) |
+| Motor | [*711*](https://www.digikey.com/en/products/detail/adafruit-industries-llc/711/5353610) |
+| Moisture Sensor | Hand-made using two conductive materials connected across a 1 inch gap. |
+| Op amp | [MCP6002-E/P](https://www.digikey.com/en/products/detail/microchip-technology/MCP6002-E-P/683196) |
+
 ## **Power Budget**
 
 After all of our components have been selected we need to ensure that we have enough power to actually complete the subsection as we have designed it. Otherwise, we'll need to find a new or a secondary power source or we'll need to choose different components.
@@ -472,3 +484,5 @@ In order to prevent confusion later on, we will include some information from th
 | ADCC | RA0, RD1  |
 | DAC  | RA2   |
 | GPIO | RB0, RB5, RB6, RD5, RD6, RD7, RF3  |
+
+!["MPlabs Image"](images/rasterizedPinout.png)
