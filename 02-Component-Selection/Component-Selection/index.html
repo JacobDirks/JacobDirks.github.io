@@ -598,24 +598,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#external-power-supply" class="md-nav__link">
-    <span class="md-ellipsis">
-      External Power Supply
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#limit-switch" class="md-nav__link">
-    <span class="md-ellipsis">
-      Limit Switch
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#motor-driver" class="md-nav__link">
     <span class="md-ellipsis">
       Motor Driver
@@ -643,6 +625,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#limit-switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Limit Switch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#moisture-sensor" class="md-nav__link">
     <span class="md-ellipsis">
       Moisture Sensor
@@ -662,6 +653,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-selection-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Selection Table
+    </span>
+  </a>
   
 </li>
       
@@ -1012,24 +1012,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#external-power-supply" class="md-nav__link">
-    <span class="md-ellipsis">
-      External Power Supply
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#limit-switch" class="md-nav__link">
-    <span class="md-ellipsis">
-      Limit Switch
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#motor-driver" class="md-nav__link">
     <span class="md-ellipsis">
       Motor Driver
@@ -1057,6 +1039,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#limit-switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Limit Switch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#moisture-sensor" class="md-nav__link">
     <span class="md-ellipsis">
       Moisture Sensor
@@ -1076,6 +1067,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-selection-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Selection Table
+    </span>
+  </a>
   
 </li>
       
@@ -1232,256 +1232,60 @@
 
 --><p>The purpose of this section is to highlight various solutions for the components used in the subsystem and identify the choices that will best suit this project.</p>
 <h2 id="components"><strong>Components</strong></h2>
-<h3 id="external-power-supply"><strong>External Power Supply</strong></h3>
-<ol>
-<li>
-<p>USB Power Bank Battery Charger 2A</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/PowerSupply/1566USB.png" data-desc-position="bottom"><img alt="AdaFruit Industries USB Power Bank" src="../images/PowerSupply/1566USB.png" style="max-height:200px;"></a></p>
-<ul>
-<li>$39.95/each</li>
-<li><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1566/6612468?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20243136172&amp;gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&amp;gclid=CjwKCAjwr8LHBhBKEiwAy47uUk3q97qpKOk9OI4bVaExirH9Z_ZgJgqjou72gkbAOUQFlqWR2LLEgBoCRz8QAvD_BwE"><em>1566</em></a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Outputs 5v which is what most of the components require</td>
-<td>Doesn’t connect to the easily to a barrel jack without an adapter</td>
-</tr>
-<tr>
-<td>Square footprint that doesn’t need to be on the pcb just connected</td>
-<td>Doesn’t follow the project specifications</td>
-</tr>
-<tr>
-<td>Could be repurposed or replaced if it breaks easier than other integrated elements</td>
-<td>Outputs 1-2A but isn’t clear on how to control the output</td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>BestCH 9V 3.0A AC Adapter</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/PowerSupply/Bestch_EGR304Jack.jpg" data-desc-position="bottom"><img alt="EGR 304's power port" src="../images/PowerSupply/Bestch_EGR304Jack.jpg" style="max-height:200px;"></a></p>
-<ul>
-<li>$4.52/each</li>
-<li><a href="https://a.co/d/hFQdNi4"><em>B09ZTKTLGW</em></a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Outputs the 9V 3A needed for the motor and can be limited down</td>
-<td>Limited to a wall plug</td>
-</tr>
-<tr>
-<td>Over charge protection</td>
-<td>Cord isn’t necessarily long enough</td>
-</tr>
-<tr>
-<td>Short circuit protection</td>
-<td>Barrel jacks have a lot of variability so if it's lost it would be harder to replace</td>
-</tr>
-<tr>
-<td>Over current protection</td>
-<td>Barrel jacks are prone to loosening over time</td>
-</tr>
-<tr>
-<td>Consistent voltage output</td>
-<td></td>
-</tr>
-<tr>
-<td>100V - 240V Alternating current input</td>
-<td></td>
-</tr>
-<tr>
-<td>Barrel jack can’t be inserted upside down and cause damage to the components</td>
-<td></td>
-</tr>
-<tr>
-<td>Has been tested with other components provided in the class</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>6V DC Power Supply 1A Universal AC Adapter</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/PowerSupply/6v1AEGR455Jack.png" data-desc-position="bottom"><img alt="EGR 455's power port" src="../images/PowerSupply/6v1AEGR455Jack.png" style="max-height:200px;"></a></p>
-<ul>
-<li>$5.96/each</li>
-<li><a href="https://a.co/d/5TMpGsm"><em>B0B2DWMYYH</em></a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>In between the two required voltages</td>
-<td>Only 1A output</td>
-</tr>
-<tr>
-<td>100-240V AC input</td>
-<td>Limited to a wall outlet</td>
-</tr>
-<tr>
-<td>Consistent output voltage</td>
-<td>Small cable which restricts movement</td>
-</tr>
-<tr>
-<td></td>
-<td>Barrel jacks have a lot of variability so replacement is difficult on the user’s side</td>
-</tr>
-<tr>
-<td></td>
-<td>Ports are prone to loosening over time with several movements</td>
-</tr>
-</tbody>
-</table>
-</li>
-</ol>
-<blockquote>
-<p><strong>Choice:</strong> Option 2: BestCH 9V 3A AC Adapter<br>
-<strong>Rationale:</strong> A barrel jack port works with project specifications and also helps prevent user error while inputting the power supply. The BestCH 9V 3A AC Adapter works the best of the two devices following this form factor. A bonus fact is that the team knows the process to connect it safely to the Micro-controller and various components. This provides ample power for everything within the circuit and doesn't require us to ramp voltage up through another means to power the most voltage intensive elements. The cost being lower than the other two options is a positive but not a critically deciding factor as there are other power supply options that are around the same price point.</p>
-</blockquote>
-<h3 id="limit-switch"><strong>Limit Switch</strong></h3>
-<ol>
-<li>
-<p>Switch Tactile SPST-NO 0.05A 12V</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/limitSwitch/MFG_TS02-Sm-BK-LCR_pushButton.png" data-desc-position="bottom"><img alt="Push Button used in a different way" src="../images/limitSwitch/MFG_TS02-Sm-BK-LCR_pushButton.png" style="max-height:200px;"></a></p>
-<ul>
-<li>$0.10/each</li>
-<li><a href="https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/TS02-66-60-BK-160-LCR-D/15634268?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20243136172&amp;gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&amp;gclid=CjwKCAjwr8LHBhBKEiwAy47uUh-cogwbaGtzIIgXFJdfVBIwK43Z69rQIvC9JF_tBIOo4p1fC_SE3BoCO44QAvD_BwE"><em>TS02-66-60-BK-160-LCR-D</em></a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Small outline</td>
-<td>Not easily mounted</td>
-</tr>
-<tr>
-<td>Doesn’t require a lot of power</td>
-<td>Could require a secondary breadboard area to mount</td>
-</tr>
-<tr>
-<td>Signals can be in parallel</td>
-<td>Small sensing area</td>
-</tr>
-<tr>
-<td></td>
-<td>More force than a traditional limit switch</td>
-</tr>
-<tr>
-<td></td>
-<td>Hard to see limit is found</td>
-</tr>
-<tr>
-<td></td>
-<td>Target surface may move without mechanical support</td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>Switch Snap Action SPDT</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/limitSwitch/MS0850502F030P1A_LimitSwitch1.png" data-desc-position="bottom"><img alt="Limit Switch similar to EGR 102" src="../images/limitSwitch/MS0850502F030P1A_LimitSwitch1.png" style="max-height:200px;"></a></p>
-<ul>
-<li>$1.35/each</li>
-<li><a href="https://www.digikey.com/en/products/detail/e-switch/MS0850502F030P1A/1628122?gclsrc=aw.ds&amp;gad_source=4&amp;gad_campaignid=20243136172&amp;gbraid=0AAAAADrbLlj9VOp3m0S33_Eo5bb054Aan&amp;gclid=CjwKCAjw6P3GBhBVEiwAJPjmLlhCRaDt99omgLz1hzmr-Y8tHiwT0D3Go3Vv2fcdLCyhnChq4JJsNxoCfLgQAvD_BwE"><em>MS0850502F030P1A</em></a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Through hole mounting</td>
-<td>Relatively large</td>
-</tr>
-<tr>
-<td>Doesn’t need PCB connection directly (can wire connect)</td>
-<td>Needs support if at the end of actuator range</td>
-</tr>
-<tr>
-<td>Three states, but only two pins required</td>
-<td>Acts parallel to placement</td>
-</tr>
-<tr>
-<td>50k+ operation lifespan</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>Limit Switch SPDT 3A 125V</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/limitSwitch/MFG_463093691402LimitSwitch.png" data-desc-position="bottom"><img alt="New Limit Switch with a circle ending" src="../images/limitSwitch/MFG_463093691402LimitSwitch.png" style="max-height:200px;"></a></p>
-<ul>
-<li>$4.00/each</li>
-<li><a href="https://www.digikey.com/en/products/detail/w-rth-elektronik/463093691402/14113680?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20243136172&amp;gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&amp;gclid=CjwKCAjwr8LHBhBKEiwAy47uUmrm-bK4boEMAm9Mk_cnw0iZMQBKQOZvTpEZI7Jhn9Q0tGQiBCwf3BoC28MQAvD_BwE"><em>463093691402</em></a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Thinner than other options</td>
-<td>Bent pin mounts</td>
-</tr>
-<tr>
-<td>Circle likely catches movement better than straight bar</td>
-<td>Pin connection extends past part width</td>
-</tr>
-<tr>
-<td>Can be mounted away from PCB</td>
-<td></td>
-</tr>
-<tr>
-<td>Three states, but only two pins required</td>
-<td></td>
-</tr>
-<tr>
-<td>Through hole mounting</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</li>
-</ol>
-<blockquote>
-<p><strong>Choice:</strong> Option 3: Limit Switch SPDT 3A 125V<br>
-<strong>Rationale:</strong> This limit switch is rated for the maximum power supply current and for a higher voltage than the project will be using. It's useful in ensuring the motor doesn't go too far and making it so the moisture sensor won't corrode by being in the soil for long periods of time. This particular option is better than the rest due to the smaller size and mounting options. Since it is smaller we won't need as powerful a motor to move the prismatic joint and other components at the end toward the plant. Secondarily, the cylindrical element at the end can create a depression in the soil which will have even more resistance to being moved and will help the actuation of the switch part of the component.</p>
-</blockquote>
+<!--
+### **External Power Supply**
+
+1. USB Power Bank Battery Charger 2A
+
+    ![AdaFruit Industries USB Power Bank](images/PowerSupply/1566USB.png){style="max-height:200px;"}
+
+    * $39.95/each
+    * [*1566*](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1566/6612468?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUk3q97qpKOk9OI4bVaExirH9Z_ZgJgqjou72gkbAOUQFlqWR2LLEgBoCRz8QAvD_BwE)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Outputs 5v which is what most of the components require  | Doesn’t connect to the easily to a barrel jack without an adapter |
+    | Square footprint that doesn’t need to be on the pcb just connected | Doesn’t follow the project specifications                 |
+    | Could be repurposed or replaced if it breaks easier than other integrated elements | Outputs 1-2A but isn’t clear on how to control the output |
+
+2. BestCH 9V 3.0A AC Adapter
+
+    ![EGR 304's power port](images/PowerSupply/Bestch_EGR304Jack.jpg){style="max-height:200px;"}
+
+    * $4.52/each
+    * [*B09ZTKTLGW*](https://a.co/d/hFQdNi4)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Outputs the 9V 3A needed for the motor and can be limited down   | Limited to a wall plug |
+    | Over charge protection                               | Cord isn’t necessarily long enough |
+    | Short circuit protection                             | Barrel jacks have a lot of variability so if it's lost it would be harder to replace |
+    | Over current protection                              |Barrel jacks are prone to loosening over time |
+    | Consistent voltage output                            |                                  |
+    | 100V - 240V Alternating current input                |                                  |
+    | Barrel jack can’t be inserted upside down and cause damage to the components |          |
+    | Has been tested with other components provided in the class |                           |
+
+3. 6V DC Power Supply 1A Universal AC Adapter
+
+    ![EGR 455's power port](images/PowerSupply/6v1AEGR455Jack.png){style="max-height:200px;"}
+
+    * $5.96/each
+    * [*B0B2DWMYYH*](https://a.co/d/5TMpGsm)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | In between the two required voltages                             | Only 1A output     |
+    | 100-240V AC input                                                | Limited to a wall outlet |
+    | Consistent output voltage                                        | Small cable which restricts movement |
+    |                                                                   | Barrel jacks have a lot of variability so replacement is difficult on the user’s side |
+    |                                                                   | Ports are prone to loosening over time with several movements |
+
+> **Choice:** Option 2: BestCH 9V 3A AC Adapter  
+> **Rationale:** A barrel jack port works with project specifications and also helps prevent user error while inputting the power supply. The BestCH 9V 3A AC Adapter works the best of the two devices following this form factor. A bonus fact is that the team knows the process to connect it safely to the Micro-controller and various components. This provides ample power for everything within the circuit and doesn't require us to ramp voltage up through another means to power the most voltage intensive elements. The cost being lower than the other two options is a positive but not a critically deciding factor as there are other power supply options that are around the same price point.
+
+-->
+
 <h3 id="motor-driver"><strong>Motor Driver</strong></h3>
 <ol>
 <li>
@@ -1816,6 +1620,131 @@
 <p><strong>Choice:</strong> Option 2: DC Motor Standard 9100 RPM 6VDC<br>
 <strong>Rationale:</strong> While it does have a lowered torque this acts as a safety feature for both the user and the plant in case the moisture sensor is misaligned. Also the flat sides on the housing of the motor allow for a brace to be installed in order to ensure the motor doesn't just spin. An added benefit of not having an encoder is a reduction in the wires that need to be connected directly to the motor. Reducing the amount of wires that would be exposed to the user's environment and needed to be searched to debug errors with the motor. Its size also helps the keep the housing smaller and doesn't force the team to come up with a clever way to hide it or to prevent damage over a larger surface.</p>
 </blockquote>
+<h3 id="limit-switch"><strong>Limit Switch</strong></h3>
+<ol>
+<li>
+<p>Switch Tactile SPST-NO 0.05A 12V</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/limitSwitch/MFG_TS02-Sm-BK-LCR_pushButton.png" data-desc-position="bottom"><img alt="Push Button used in a different way" src="../images/limitSwitch/MFG_TS02-Sm-BK-LCR_pushButton.png" style="max-height:200px;"></a></p>
+<ul>
+<li>$0.10/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/TS02-66-60-BK-160-LCR-D/15634268?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20243136172&amp;gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&amp;gclid=CjwKCAjwr8LHBhBKEiwAy47uUh-cogwbaGtzIIgXFJdfVBIwK43Z69rQIvC9JF_tBIOo4p1fC_SE3BoCO44QAvD_BwE"><em>TS02-66-60-BK-160-LCR-D</em></a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Small outline</td>
+<td>Not easily mounted</td>
+</tr>
+<tr>
+<td>Doesn’t require a lot of power</td>
+<td>Could require a secondary breadboard area to mount</td>
+</tr>
+<tr>
+<td>Signals can be in parallel</td>
+<td>Small sensing area</td>
+</tr>
+<tr>
+<td></td>
+<td>More force than a traditional limit switch</td>
+</tr>
+<tr>
+<td></td>
+<td>Hard to see limit is found</td>
+</tr>
+<tr>
+<td></td>
+<td>Target surface may move without mechanical support</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Switch Snap Action SPDT</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/limitSwitch/MS0850502F030P1A_LimitSwitch1.png" data-desc-position="bottom"><img alt="Limit Switch similar to EGR 102" src="../images/limitSwitch/MS0850502F030P1A_LimitSwitch1.png" style="max-height:200px;"></a></p>
+<ul>
+<li>$1.35/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/e-switch/MS0850502F030P1A/1628122?gclsrc=aw.ds&amp;gad_source=4&amp;gad_campaignid=20243136172&amp;gbraid=0AAAAADrbLlj9VOp3m0S33_Eo5bb054Aan&amp;gclid=CjwKCAjw6P3GBhBVEiwAJPjmLlhCRaDt99omgLz1hzmr-Y8tHiwT0D3Go3Vv2fcdLCyhnChq4JJsNxoCfLgQAvD_BwE"><em>MS0850502F030P1A</em></a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Through hole mounting</td>
+<td>Relatively large</td>
+</tr>
+<tr>
+<td>Doesn’t need PCB connection directly (can wire connect)</td>
+<td>Needs support if at the end of actuator range</td>
+</tr>
+<tr>
+<td>Three states, but only two pins required</td>
+<td>Acts parallel to placement</td>
+</tr>
+<tr>
+<td>50k+ operation lifespan</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Limit Switch SPDT 3A 125V</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/limitSwitch/MFG_463093691402LimitSwitch.png" data-desc-position="bottom"><img alt="New Limit Switch with a circle ending" src="../images/limitSwitch/MFG_463093691402LimitSwitch.png" style="max-height:200px;"></a></p>
+<ul>
+<li>$4.00/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/w-rth-elektronik/463093691402/14113680?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20243136172&amp;gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&amp;gclid=CjwKCAjwr8LHBhBKEiwAy47uUmrm-bK4boEMAm9Mk_cnw0iZMQBKQOZvTpEZI7Jhn9Q0tGQiBCwf3BoC28MQAvD_BwE"><em>463093691402</em></a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Thinner than other options</td>
+<td>Bent pin mounts</td>
+</tr>
+<tr>
+<td>Circle likely catches movement better than straight bar</td>
+<td>Pin connection extends past part width</td>
+</tr>
+<tr>
+<td>Can be mounted away from PCB</td>
+<td></td>
+</tr>
+<tr>
+<td>Three states, but only two pins required</td>
+<td></td>
+</tr>
+<tr>
+<td>Through hole mounting</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<blockquote>
+<p><strong>Choice:</strong> Option 3: Limit Switch SPDT 3A 125V<br>
+<strong>Rationale:</strong> This limit switch is rated for the maximum power supply current and for a higher voltage than the project will be using. It's useful in ensuring the motor doesn't go too far and making it so the moisture sensor won't corrode by being in the soil for long periods of time. This particular option is better than the rest due to the smaller size and mounting options. Since it is smaller we won't need as powerful a motor to move the prismatic joint and other components at the end toward the plant. Secondarily, the cylindrical element at the end can create a depression in the soil which will have even more resistance to being moved and will help the actuation of the switch part of the component.</p>
+</blockquote>
 <h3 id="moisture-sensor"><strong>Moisture Sensor</strong></h3>
 <ol>
 <li>
@@ -2052,6 +1981,37 @@
 <p><strong>Choice:</strong> Option #1: Rail-to-Rail Single Supply Op-Amp<br>
 <strong>Rationale:</strong>  This option allows for rapid integration into the project and supplies itself with multiple backups in case the need arises. This allows enables for some damage to occur during shipping. All while having the additional benefit of boosting the signal from the moisture sensor to help ensure the nano can actually read it.</p>
 </blockquote>
+<h2 id="final-selection-table"><strong>Final Selection Table</strong></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Function</th>
+<th style="text-align: left;">Part Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Motor Driver</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/fairchild-semiconductor/FAN8100N/11558200"><em>FAN8100N</em></a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Voltage Regulator</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964"><em>L7805CV</em></a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Motor</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/711/5353610"><em>711</em></a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Moisture Sensor</td>
+<td style="text-align: left;">Hand-made using two conductive materials connected across a 1 inch gap.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Op amp</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6002-E-P/683196">MCP6002-E/P</a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="power-budget"><strong>Power Budget</strong></h2>
 <p>After all of our components have been selected we need to ensure that we have enough power to actually complete the subsection as we have designed it. Otherwise, we'll need to find a new or a secondary power source or we'll need to choose different components.</p>
 <p>This information can be found at the <a href="https://jacobdirks.github.io/05-Power-Budget/Power-Budget/"><em>Power Budget tab</em></a></p>
@@ -2079,6 +2039,7 @@
 </tr>
 </tbody>
 </table>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/rasterizedPinout.png" data-desc-position="bottom"><img alt="&quot;MPlabs Image&quot;" src="../images/rasterizedPinout.png"></a></p>
 
 
 
