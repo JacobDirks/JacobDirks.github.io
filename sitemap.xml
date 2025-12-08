@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://jacobdirks.github.io/08-Hardware/hardware/</loc>
+         <lastmod>2025-12-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://jacobdirks.github.io/Appendix/</loc>
          <lastmod>2025-12-08</lastmod>
          <changefreq>daily</changefreq>
