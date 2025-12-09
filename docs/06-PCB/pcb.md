@@ -31,7 +31,7 @@ After simulating the PCB, we can look towards manufacturing at least one PCB for
 
 **Figure 5:** Top of the PCB without any parts soldered on.
 
-![Real bottom unsolder](supplied/bottomunsolder.png){style="max-height:300px;"}  
+![Real bottom unsolder](supplied/bottomunsolder.PNG){style="max-height:300px;"}  
 
 **Figure 6:** Bottom of the PCB without any parts soldered on.
 
